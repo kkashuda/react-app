@@ -5,7 +5,12 @@ import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider } fro
 // :title, :description, :steps, :source
 const Drink = ({title, description, steps, source}) => (
     <Container text>
-          <Header as='h2'>Header</Header>
+        <Header as='h2' icon textAlign='center'>
+            <Icon name='cocktail' circular />
+            <Header.Content>
+                List of Ingredients
+            </Header.Content>
+         </Header>
         <p></p>
     </Container>
 )
