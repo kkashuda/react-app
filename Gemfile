@@ -31,6 +31,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Use sqlite3 as the database for Active Record
   gem 'pg'
+  gem 'foreman', '~> 0.82.0'
 end
 
 group :production do
