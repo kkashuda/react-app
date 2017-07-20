@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: project_development
+  pool: 5
+  username: klk
+  password: md50b18038c52cee407414e7833ddc6319e
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: project_test
+  pool: 5
+  username: klk
+  password: md50b18038c52cee407414e7833ddc6319e
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: project_production
+  pool: 5
+  username: klk
+  password: md50b18038c52cee407414e7833ddc6319e
+
+cucumber:
+  <<: *TEST

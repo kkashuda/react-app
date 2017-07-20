@@ -1,0 +1,81 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.189545', '2017-07-18 02:07:28.189545', 980190962)[0m
+  [1m[36mFixture Insert (0.4ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.189545', '2017-07-18 02:07:28.189545', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.401853', '2017-07-18 02:07:28.401853', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.401853', '2017-07-18 02:07:28.401853', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.407075', '2017-07-18 02:07:28.407075', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.407075', '2017-07-18 02:07:28.407075', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.411936', '2017-07-18 02:07:28.411936', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.411936', '2017-07-18 02:07:28.411936', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.417844', '2017-07-18 02:07:28.417844', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.417844', '2017-07-18 02:07:28.417844', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.422785', '2017-07-18 02:07:28.422785', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.422785', '2017-07-18 02:07:28.422785', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.427398', '2017-07-18 02:07:28.427398', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.427398', '2017-07-18 02:07:28.427398', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.434769', '2017-07-18 02:07:28.434769', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.434769', '2017-07-18 02:07:28.434769', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.440018', '2017-07-18 02:07:28.440018', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.440018', '2017-07-18 02:07:28.440018', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "active_admin_comments" DISABLE TRIGGER ALL;ALTER TABLE "admin_users" DISABLE TRIGGER ALL;ALTER TABLE "albums" DISABLE TRIGGER ALL;ALTER TABLE "artists" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.444590', '2017-07-18 02:07:28.444590', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2017-07-18 02:07:28.444590', '2017-07-18 02:07:28.444590', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
