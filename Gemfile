@@ -17,6 +17,7 @@ gem 'puma', '~> 3.0'
 # gem 'redis', '~> 3.0'
 gem 'sqlite3'
 gem 'pg'
+gem 'react-redux-rails', '~> 3.1', '>= 3.1.0.2'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

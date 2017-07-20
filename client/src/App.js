@@ -4,7 +4,7 @@ import './App.css';
 import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider } from 'semantic-ui-react'
 
 class App extends Component {
-  
+
   render() {
     return (
       <div className="App">
