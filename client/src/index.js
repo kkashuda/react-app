@@ -3,6 +3,7 @@ import React from 'react';
 import './index.css';
 import 'semantic-ui-css/semantic.css';
 import './index.css';
+import App from './components/App'
 import { render } from 'react-dom';
 import configureStore from './store/configureStore';  
 import { Provider } from 'react-redux';    
@@ -17,6 +18,6 @@ render(
    <Provider store={store}>
     <Router history={browserHistory} routes={routes} />
   </Provider>,
-  document.getElementById('app')
+  document.getElementById('root')
 );
 

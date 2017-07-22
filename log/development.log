@@ -2721,3 +2721,214 @@ Processing by DrinksController#index as */*
 Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 3.4ms)
 
 
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:21:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.4ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:21:29 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:23:39 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:24:38 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:24:44 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:25:01 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:25:06 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:25:14 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:25:45 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:26:31 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:26:56 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:27:29 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:28:30 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:28:57 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:30:57 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:41:13 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:41:31 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:41:39 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:41:51 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:43:03 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:45:14 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:46:01 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:46:37 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:51:42 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:51:56 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:53:35 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:54:48 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:56:10 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:57:19 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:58:31 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 18:00:56 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 18:02:55 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 18:02:58 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 18:03:06 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.9ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-22 18:05:57 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+

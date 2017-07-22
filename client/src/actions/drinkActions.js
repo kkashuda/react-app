@@ -1,6 +1,6 @@
+import * as types from './actionTypes';
 import drinkApi from '../api/drinkApi';
 
-import * as types from './actionTypes';
 
 export function loadDrinksSuccess(drinks) {
   return {type: types.LOAD_DRINKS_SUCCESS, drinks};
