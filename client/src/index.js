@@ -3,13 +3,18 @@ import React from 'react';
 import './index.css';
 import 'semantic-ui-css/semantic.css';
 import './index.css';
-import { render } from 'react-dom';  
+import { render } from 'react-dom';
+import configureStore from './store/configureStore';  
+import { Provider } from 'react-redux';    
 import { Router, browserHistory } from 'react-router';  
 import routes from './routes';
 
+const store = configureStore();
 
 render(  
- <Router history={browserHistory} routes={routes} />,
- document.getElementById('app')
+   <Provider store={store}>
+    <Router history={browserHistory} routes={routes} />
+  </Provider>,
+  document.getElementById('app')
 );
 
