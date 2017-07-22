@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';  
 import { Link, IndexLink } from 'react-router';
 
-const Header = () => {  
+const NavHeader = () => {  
   return (
     <nav>
       <IndexLink to="/" 
@@ -12,4 +12,4 @@ const Header = () => {
   );
 };
 
-export default Header;  
+export default NavHeader;  
