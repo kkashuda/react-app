@@ -2714,3 +2714,10 @@ Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(279088437195799245)[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/drinks" for ::1 at 2017-07-22 17:12:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.4ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 3.4ms)
+
+
