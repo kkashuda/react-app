@@ -3,7 +3,7 @@ class DrinksController < ApplicationController
 
   # GET /drinks
   def index
-    @drinks = Drink.select("id, title").all
+    @drinks = Drink.select("id, title, description, steps, source").all
     render json: @drinks.to_json
   end
 

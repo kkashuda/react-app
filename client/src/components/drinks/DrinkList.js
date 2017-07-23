@@ -6,7 +6,10 @@ const DrinkList = ({drinks}) => {
       <ul className="list-group">
         {drinks.map(drink => 
           <li className="list-group-item" key={drink.id}>
-            {drink.source}
+            {drink.title} <br></br>
+            {drink.source} <br></br>
+            {drink.description} <br></br>
+            {drink.steps}
           </li>
         )}
       </ul>

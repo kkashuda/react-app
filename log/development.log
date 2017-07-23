@@ -3146,3 +3146,122 @@ Processing by DrinksController#index as */*
 Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:53:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.3ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/api" for ::1 at 2017-07-23 14:54:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api"):
+  
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:54:09 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:57:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.7ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:57:45 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:57:45 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:57:47 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-07-23 14:57:50 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.0.4/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:58:12 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.1ms)[0m  [1m[34mSELECT id, title FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:58:47 -0500
+Processing by DrinksController#index as HTML
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:59:09 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.6ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:59:45 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 14:59:49 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 15:00:11 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 15:00:13 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 15:00:21 -0500
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.2ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
