@@ -6,6 +6,11 @@ const NavHeader = () => {
   return (
   
   <div>
+      <Header icon textAlign='center'>
+        <Icon.Group size='big'>
+        <Icon size='small' name='lab' color='pink' />
+        </Icon.Group>
+      </Header>
     <Menu>
       <Menu.Item as={Link} to='/'>
         Home

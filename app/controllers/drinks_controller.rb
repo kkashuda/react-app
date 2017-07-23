@@ -1,10 +1,13 @@
+require 'pry'
 class DrinksController < ApplicationController
   before_action :set_drink, only: [:show, :update, :destroy]
 
   # GET /drinks
   def index
     @drinks = Drink.select("id, title, description, steps, source").all
-    render json: @drinks.to_json
+    render json: @drinks.to_json(:include => { :ingredients => { :only => [:id, :description] }})
+
+
   end
 
   # GET /drinks/1
