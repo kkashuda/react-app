@@ -9,7 +9,6 @@ class DrinksPage extends React.Component {
 
     componentWillMount() {
     if (this.props.drinks[0].id == '') {
-      debugger
       this.props.actions.loadDrinks();
     }
   }
@@ -35,8 +34,10 @@ DrinksPage.propTypes = {
 
 function mapStateToProps(state, ownProps) {
   if (state.drinks.length > 0) {
+    debugger
     return {
       drinks: state.drinks
+      
     };
   } else {
     return {
