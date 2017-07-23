@@ -6,14 +6,12 @@ class DrinksController < ApplicationController
   def index
     @drinks = Drink.select("id, title, description, steps, source").all
     render json: @drinks.to_json(:include => { :ingredients => { :only => [:id, :description] }})
-
-
   end
 
   # GET /drinks/1
   def show
      @drink = Drink.find(params[:id])
-    render json: @drink.to_json(:include => { :ingredients => { :only => [:id, :description] }})
+     render json: @drink.to_json(:include => { :ingredients => { :only => [:id, :description] }})
   end
 
   # POST /drinks

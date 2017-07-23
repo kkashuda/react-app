@@ -11,17 +11,15 @@ const DrinkList = ({drinks}) => {
             {drink.title}
           </Button>
           <Header as='h2'>{drink.title}</Header>
-          {drink.description && <p>{drink.description}</p>}
-          {drink.ingredients &&
+          {<p>{drink.description}</p>}
+          {
             <Segment.Group>
-              {drink.ingredients.map((ingredient, i) => <Segment key={i}>{ingredient.description}</Segment>)}
+              {drink.ingredients.map((ingredient, i) => <Segment>{ingredient.description}</Segment>)}
             </Segment.Group>
           }
-          {drink.steps && <p>{drink.steps}</p>}
-     
+          {<p>{drink.steps}</p>}
         </Container> 
         )}
-    
         </ul>
   );
 };
