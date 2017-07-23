@@ -16,7 +16,7 @@ const NavHeader = () => {
         Home
       </Menu.Item>
       <Menu.Item as={Link} to='/drinks'>
-        View Drinks
+        Drinks
       </Menu.Item>
     </Menu>
   </div>

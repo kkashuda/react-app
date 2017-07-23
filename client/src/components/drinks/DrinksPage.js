@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import DrinkList from './DrinkList';
 import * as actions from '../../actions/drinkActions';
+import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider, List, Item } from 'semantic-ui-react'
 
 class DrinksPage extends React.Component {  
 
@@ -20,6 +21,9 @@ class DrinksPage extends React.Component {
     <div>
    
         <div>
+             <Header textAlign='center' color='violet' as='h2' attached='top'>
+          Mixology: 
+      </Header>
           <DrinkList drinks={drinks} />
         </div>
     </div>
