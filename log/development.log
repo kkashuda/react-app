@@ -6911,3 +6911,23 @@ Processing by DrinksController#index as */*
 Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 1.2ms)
 
 
+Started GET "/api/drinks" for ::1 at 2017-07-23 20:34:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.7ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+  [1m[36mIngredient Load (0.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."drink_id" = $1[0m  [["drink_id", 1]]
+  [1m[36mIngredient Load (0.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."drink_id" = $1[0m  [["drink_id", 2]]
+  [1m[36mIngredient Load (0.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."drink_id" = $1[0m  [["drink_id", 3]]
+Completed 200 OK in 64ms (Views: 0.2ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/api/drinks" for ::1 at 2017-07-23 20:44:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrinksController#index as */*
+  [1m[36mDrink Load (0.8ms)[0m  [1m[34mSELECT id, title, description, steps, source FROM "drinks"[0m
+  [1m[36mIngredient Load (0.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."drink_id" = $1[0m  [["drink_id", 1]]
+  [1m[36mIngredient Load (0.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."drink_id" = $1[0m  [["drink_id", 2]]
+  [1m[36mIngredient Load (0.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."drink_id" = $1[0m  [["drink_id", 3]]
+Completed 200 OK in 46ms (Views: 0.2ms | ActiveRecord: 8.2ms)
+
+

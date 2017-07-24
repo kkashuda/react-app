@@ -6,7 +6,9 @@ import NavHeader from './common/NavHeader';
 import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider } from 'semantic-ui-react'
 
 
-class App extends React.Component {  
+class App extends React.Component { 
+  
+  
   render() {
     return (
       <div className="container-fluid">
