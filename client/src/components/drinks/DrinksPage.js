@@ -1,5 +1,6 @@
 import React, {PropTypes} from 'react';  
 import {Link, browserHistory} from 'react-router';
+import 'semantic-ui-css/semantic.css'
 import {connect} from 'react-redux';  
 import {bindActionCreators} from 'redux';
 import DrinkList from './DrinkList';
