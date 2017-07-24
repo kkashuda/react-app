@@ -1,8 +1,9 @@
 import React, {PropTypes} from 'react';  
 import {connect} from 'react-redux';  
 import {bindActionCreators} from 'redux';  
-import * as courseActions from '../../actions/drinkActions';  
-import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider, List, Item } from 'semantic-ui-react'
+import * as courseActions from '../../actions/drinkActions'; 
+import DrinkForm from './DrinkForm'; 
+import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider, List, Item, Label } from 'semantic-ui-react'
 
 
 
@@ -25,10 +26,13 @@ class NewDrinkPage extends React.Component {
    render() {
     return (
       <div>
+          <br></br>
          <Header as='h2' textAlign='center' color='blue'>
     <Header.Content>
-        
-      CREATE DRINK  <Icon color='blue' name='cocktail'/>
+        <Label.Group size='huge'>
+    <Label>Mix Your Own <Icon color='pink' name='cocktail'/> </Label>  
+  </Label.Group>
+  <DrinkForm />
     </Header.Content>
   </Header>
     

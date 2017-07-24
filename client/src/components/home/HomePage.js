@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import {connect} from 'react-redux';  
 import {bindActionCreators} from 'redux';
 import * as actions from '../../actions/drinkActions';
-import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider, List, Item } from 'semantic-ui-react'
+import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider, List, Item, Label } from 'semantic-ui-react'
 
 class HomePage extends React.Component {
 
@@ -12,18 +12,17 @@ class HomePage extends React.Component {
     const drinks = this.props.drinks;
     return (
       <div>
-        <Header textAlign='center' color='violet' as='h2' attached='top'>
+        <Header textAlign='center' color='violet' as='h2'>
 
-           <Icon.Group size='small'>
-        <Icon size='big' name='write' color='pink' />
-        </Icon.Group>
 
       </Header>
-       <h1> 
+       <Header as="h1" textAlign='center'> 
+         <Label>
           <Link to={'/drinks/new'} className="btn btn-primary">
-            + drink
+             add drink <Icon size='big' name='write' color='pink' />
           </Link> 
-        </h1>
+          </Label> 
+        </Header>
       </div>
     );
   }
